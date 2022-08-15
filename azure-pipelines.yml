@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'shinna101 Docker Hub'
-        repository: 'shina101/weatherapi'
+        repository: 'shinna101/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
